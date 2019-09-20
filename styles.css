@@ -64,10 +64,15 @@ label{
         width: 250px;
         border-radius: 5px;
     }
-    .contact text-center{
-        text-align: center;
-        clear: both;
-        color: darkslateblue;
+    .footer-area-bottom{
+        border:0px peachpuff;
+        background-color: #f1f1f1f1;
+        margin-bottom:20px;
+        padding-top: 10px;
+        color: blue;
+        font-size: 20px;
+        margin-top: 70px;  
     }
+    
 
     
