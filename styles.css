@@ -17,6 +17,7 @@ body{
 }
 .col-md-4{
     font-size: 30px;
+    background-color: skyblue;
     color:slateblue;
 }
 #display,#gender,input{
