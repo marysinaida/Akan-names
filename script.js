@@ -1,5 +1,5 @@
-// Function to reset the form after submition
-function formReset(){
+// Function to refresh the form after submition
+function formRefresh(){
     document.getElementById("form_data").reset();
 }
 
@@ -27,19 +27,19 @@ function akanNames(){
     if(!isNaN(dOfWeek)){
         if(gender=="Male"){
             
-            document.getElementById("display").innerHTML="You have born on "+daysOfWeek[dOfWeek]+ " and Your akana name is " + maleNames[Math.round(dayOfTheWeek)];
+            document.getElementById("display").innerHTML="You were born on "+daysOfWeek[dOfWeek]+ " and Your akana name is " + maleNames[Math.round(dayOfTheWeek)];
         }
         else if(gender==="Female"){
-            document.getElementById("display").innerHTML="You have born on "+daysOfWeek[dOfWeek]+ " and Your akana name is " + femaleNames[Math.round(dayOfTheWeek)];
+            document.getElementById("display").innerHTML="You were born on "+daysOfWeek[dOfWeek]+ " and Your akana name is " + femaleNames[Math.round(dayOfTheWeek)];
         }else{
-            alert("Enter valid birthday and choose your gender");
+            alert("Enter valid dates and choose your gender");
             document.getElementById("display").innerHTML="";
         }
     }
     else{
-        alert("Enter valid birthday and choose your gender");
+        alert("Enter valid dates and choose your gender");
         document.getElementById("display").innerHTML="";
     }
     //call to the reset function
-    formReset();
+    formRefresh();
 }
