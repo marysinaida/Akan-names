@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://continenttours.com/wp-content/uploads/Coconut-Grove-Beach-Resort.jpg");
+    background-size: cover;
+    font-size: 30px; 
+    font-family: Georgia;
+    color:antiquewhite;
+ }
+    .form{
+        top: 20px;
+
+       
+    }
+    h2{
+     text-align: center;
+     font-size: 40px;  
+     text-shadow: 2px 2px 5px grey; 
+     color:black;
+    }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+
+    }
+    #submit{
+        margin: 20px;
+        padding: 8px;
+        background-color: cornflowerblue;
+        border-radius: 5px;
+    }
+    .input{
+        padding-left: 20px;
+    }
+    .jumbotron{
+        background-color:peachpuff;
+        box-shadow: 2px 2px 5px grey;
+        color:black;
+    }
+    #month{
+        width: 250px;
+        border-radius: 5px;
+    }
+    #year{
+        width: 250px;
+        border-radius: 5px;
+    }
+    #dob{
+        width: 250px;
+        border-radius: 5px;
+    }
+
+    
