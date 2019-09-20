@@ -12,7 +12,7 @@ function akanNames(){
     var month=parseInt(dateEntered[1]);
     var year=parseInt(dateEntered[0]);
 
-    //Centenary calculation
+    //Centuary calculation
     var centry=(year-1)/100+1; 
     var dayOfTheWeek = ( centry/4 -2*centry-1 + 5*year/4  + 26*(month+1)/10 + day ) % 7;
         
@@ -20,17 +20,17 @@ function akanNames(){
     var maleNames=["Kwasi"," Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     var femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     var gender=document.getElementById("gender").value;
-    var daysOfWeek=["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Suturday"];
+    var daysOfWeek=["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var dOfWeek = Math.round(dayOfTheWeek)
 
     //Some form validation and output
     if(!isNaN(dOfWeek)){
         if(gender=="Male"){
             
-            document.getElementById("display").innerHTML="You were born on "+daysOfWeek[dOfWeek]+ " and Your akana name is " + maleNames[Math.round(dayOfTheWeek)];
+            document.getElementById("display").innerHTML="You were born on "+ daysOfWeek[dOfWeek]+ " and Your akan name is" + maleNames[Math.round(dayOfTheWeek)];
         }
         else if(gender==="Female"){
-            document.getElementById("display").innerHTML="You were born on "+daysOfWeek[dOfWeek]+ " and Your akana name is " + femaleNames[Math.round(dayOfTheWeek)];
+            document.getElementById("display").innerHTML="You were born on "+daysOfWeek[dOfWeek]+ " and Your akan name is " + femaleNames[Math.round(dayOfTheWeek)];
         }else{
             alert("Enter valid dates and choose your gender");
             document.getElementById("display").innerHTML="";
@@ -40,6 +40,6 @@ function akanNames(){
         alert("Enter valid dates and choose your gender");
         document.getElementById("display").innerHTML="";
     }
-    //call to the reset function
+    //call to the reFresh function
     formRefresh();
 }
