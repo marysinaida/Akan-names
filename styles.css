@@ -17,7 +17,7 @@ body{
 }
 .col-md-4{
     font-size: 30px;
-    color:black;
+    color:slateblue;
 }
 #display,#gender,input{
   text-align: left;
@@ -53,8 +53,7 @@ label{
         background-color:peachpuff;
         box-shadow: 2px 2px 5px grey;
         color:black;
-        font-family: 'Francois One';
-
+        font-family: 'Merriweather', serif;
     }
     .btn btn-success{
         margin: auto;
