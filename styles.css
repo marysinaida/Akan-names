@@ -2,13 +2,15 @@ body{
     background-image: url("https://continenttours.com/wp-content/uploads/Coconut-Grove-Beach-Resort.jpg");
     background-size: cover;
     font-size: 30px; 
-    font-family: Georgia;
     color:antiquewhite;
  }
     .form{
         top: 20px;
 
        
+    }
+    .row{
+        font-family: 'Fugaz One', cursive;   
     }
     h2{
      text-align: center;
@@ -35,6 +37,8 @@ body{
         background-color:peachpuff;
         box-shadow: 2px 2px 5px grey;
         color:black;
+        font-family: 'Francois One';
+
     }
     #month{
         width: 250px;
@@ -47,6 +51,11 @@ body{
     #dob{
         width: 250px;
         border-radius: 5px;
+    }
+    .contact text-center{
+        text-align: center;
+        clear: both;
+        color: darkslateblue;
     }
 
     
