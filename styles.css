@@ -4,13 +4,25 @@ body{
     font-size: 30px; 
     color:antiquewhite;
  }
-    .form{
-        top: 20px;
-
-       
-    }
-    .row{
-        font-family: 'Fugaz One', cursive; 
+ form{
+  background-color: antiquewhite;
+  padding: 20px;
+  padding-left: 80px;
+  line-height: 10px;
+  margin-top: 50px;
+  height: 200px;
+  width: 800px;
+ margin-left: 200px;
+        
+}
+#display,#gender,input{
+  text-align: center;
+}
+label{
+ padding: 20px
+}
+.row{
+ font-family: 'Fugaz One', cursive; 
     }
     h2{
      text-align: center;
