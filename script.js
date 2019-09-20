@@ -37,7 +37,7 @@ function akanNames(){
         }
     }
     else{
-        alert("Enter valid dates and choose your gender");
+        alert("Kindly enter the valid dates and choose your gender.");
         document.getElementById("display").innerHTML="";
     }
     //call to the reFresh function
