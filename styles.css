@@ -1,25 +1,29 @@
 body{
     background-image: url("https://continenttours.com/wp-content/uploads/Coconut-Grove-Beach-Resort.jpg");
     background-size: cover;
-    font-size: 30px; 
+    font-size: 20px; 
     color:antiquewhite;
  }
  form{
-  background-color:blanchedalmond;
+  background-color:black;
   padding: 20px;
   padding-left: 80px;
-  line-height: 10px;
+  line-height: 5px;
   margin-top: 50px;
   height: 200px;
   width: 800px;
- margin-left: 200px;
+ /* margin-left: 200px; */
         
+}
+.col-md-4{
+    font-size: 30px;
+    color:black;
 }
 #display,#gender,input{
   text-align: left;
 }
 label{
- padding: 20px
+ padding: 5px
 }
 .row{
  font-family: 'Fugaz One', cursive; 
@@ -37,13 +41,13 @@ label{
 
     }
     #submit{
-        margin: 20px;
-        padding: 8px;
+        margin: 10px;
+        padding: 5px;
         background-color: cornflowerblue;
         border-radius: 5px;
     }
     .input{
-        padding-left: 20px;
+        padding-left: 5px;
     }
     .jumbotron{
         background-color:peachpuff;
@@ -51,6 +55,10 @@ label{
         color:black;
         font-family: 'Francois One';
 
+    }
+    .btn btn-success{
+        margin: auto;
+        margin-left: 100px;
     }
     #month{
         width: 250px;
@@ -71,7 +79,7 @@ label{
         padding-top: 10px;
         color: blue;
         font-size: 20px;
-        margin-top: 70px;  
+        margin-top: 90px;  
     }
     
 
