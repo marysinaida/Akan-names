@@ -11,13 +11,14 @@ body{
   line-height: 5px;
   margin-top: 50px;
   height: 200px;
-  width: 800px;
+  width: 1000px;
  /* margin-left: 200px; */
         
 }
 .col-md-4{
     font-size: 30px;
     background-color:lightblue;
+    background-size: cover;
     color:slateblue;
 }
 #display,#gender,input{
