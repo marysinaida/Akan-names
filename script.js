@@ -35,10 +35,12 @@ function akanNames(){
             document.getElementById("display").innerHTML="";
         }
     }
-    else{
-        alert("Kindly enter the valid dates and choose your gender.");
-        document.getElementById("display").innerHTML="";
-    }
+            else{
+                alert("Enter valid birthday and choose your gender");
+                document.getElementById("display").innerHTML="";
+            }
+    
+    
     //call to the reFresh function
     formRefresh();
 }
