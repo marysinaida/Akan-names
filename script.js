@@ -17,17 +17,16 @@ function akanNames(){
     var dayOfTheWeek = ( centry/4 -2*centry-1 + 5*year/4  + 26*(month+1)/10 + day ) % 7;
         
     document.getElementById("display").innerHTML=Math.round(dayOfTheWeek);
-    var maleNames=["Kwasi"," Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     var femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+    var maleNames=["Kwasi"," Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     var gender=document.getElementById("gender").value;
     var daysOfWeek=["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var dOfWeek = Math.round(dayOfTheWeek)
 
-    //Some form validation and output
+    //form validation and output
     if(!isNaN(dOfWeek)){
         if(gender=="Male"){
-            
-            document.getElementById("display").innerHTML="You were born on "+ daysOfWeek[dOfWeek]+ " and Your akan name is" + maleNames[Math.round(dayOfTheWeek)];
+            document.getElementById("display").innerHTML= "Your akan names is"+ maleNames[Math.round(dayOfTheWeek)]+" and you were born on "+ daysOfWeek[dOfWeek];
         }
         else if(gender==="Female"){
             document.getElementById("display").innerHTML="You were born on "+daysOfWeek[dOfWeek]+ " and Your akan name is " + femaleNames[Math.round(dayOfTheWeek)];
